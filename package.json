@@ -1,0 +1,31 @@
+{
+  "name": "signxadesepes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.5.0",
+    "@peculiar/x509": "^1.12.2",
+    "@xmldom/xmldom": "^0.9.3",
+    "archiver": "^7.0.1",
+    "body-parser": "^1.20.3",
+    "body-parser-xml": "^2.0.5",
+    "express": "^4.21.1",
+    "mongodb": "6.11",
+    "nodemon": "^3.1.7",
+    "soap": "^1.1.6",
+    "uuid": "^10.0.0",
+    "xadesjs": "^2.4.4",
+    "xml2js": "^0.6.2",
+    "xmldsigjs": "^2.6.1",
+    "xpath": "^0.0.34"
+  }
+}
